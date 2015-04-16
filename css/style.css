@@ -442,10 +442,11 @@ div {
   /*border: 1px solid Chocolate;*/
 }
 
-
 /* Navigation Bar */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
 }
 .top-navigation .content {
   height: 70px;
@@ -477,8 +478,47 @@ div {
 }
 
 /* Background Image Section */
-
-
+.introduction {
+  background-image: url("../images/first-background.jpg");
+  background-position: center bottom;
+  background-repeat: none;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+.introduction .content {
+  color: #fff;
+  margin: 350px auto;
+  width: 970px;
+}
+.introduction h1,
+.introduction h3 {
+  font-weight: 100;
+  text-align: center;
+}
+.introduction h1 {
+  font-size: 3em;
+  margin-bottom: 0em;
+}
+.introduction h3 {
+  font-size: 1.5em;
+  margin-top: 0.3em;
+}
+.big-button {
+  color: #fff;
+  background-color: #f15a29;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.1em;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+}
+.big-button:hover{
+  background-color: #d9400e;
+}
 
 
 

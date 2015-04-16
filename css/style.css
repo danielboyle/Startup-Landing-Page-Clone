@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -429,6 +436,7 @@ th {
 body {
   background-color: lightGray;
   font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 div {
   /*border: 1px solid Chocolate;*/
@@ -442,7 +450,7 @@ div {
 .top-navigation .content {
   height: 70px;
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px 100px;
   width: 970px;
 }
 .top-navigation .logo {
@@ -468,6 +476,7 @@ div {
   cursor: pointer;
 }
 
+/* Background Image Section */
 
 
 

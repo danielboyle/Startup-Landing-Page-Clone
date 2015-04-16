@@ -428,19 +428,46 @@ th {
 
 body {
   background-color: lightGray;
+  font-family: 'Roboto', sans-serif;
 }
 div {
-  border: 1px solid Chocolate;
+  /*border: 1px solid Chocolate;*/
 }
 
+
+/* Navigation Bar */
 .top-navigation {
   background-color: #fff;
 }
-.top-navigation > .content {
+.top-navigation .content {
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
   width: 970px;
 }
+.top-navigation .logo {
+  height: 70px;
+}
+.top-navigation .links {
+  float: right; 
+  font-size: 1em; 
+  color: #838994; 
+  margin-top: 25px;
+}
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+  color: #4c5058;
+  font-size: 1em;
+  font-weight: 500;
+}
+.top-navigation .links li:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
 
 
 

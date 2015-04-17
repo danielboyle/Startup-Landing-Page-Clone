@@ -450,11 +450,12 @@ div {
   position: fixed;
   width: 100%;
   z-index: 9999;
+  border-bottom: 1px solid #ddd;
 }
 .top-navigation .content {
   height: 70px;
   margin: 0 auto;
-  padding: 0px 100px;
+  padding: 0px 30px;
   width: 970px;
 }
 .top-navigation .logo {
@@ -544,9 +545,42 @@ label h3 {
   font-weight: 400;
 }
 
-
-
-
+/* Footer */
+.social {
+  text-align: center;
+  height: 17em;
+  margin-top: 7em auto 0 auto;
+}
+.social .content {
+  margin: 7em auto;
+  width: 60em;
+  border-top: 1px solid #ddd;
+}
+.social ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 2.4em;
+}
+.social li {
+  display: inline-block;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+.social h5 {
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: -0.3em;
+}
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
 
 
 
